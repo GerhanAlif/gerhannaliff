@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Branding</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-photo">
+                    <img src="asetss/foto.jpg" alt="Foto Profil Gerhan Maulana Alif Firdaus">
+                </div>
+                <div class="header-text">
+                    <h1>Gerhan Maulana Alif Firdaus</h1>
+                    <h4>My Personal Branding</h4>
+                    <p>Programming</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+            <p>Perkenalkan, nama saya Gerhan Maulana Alif Firdaus, saya berasal dari kota Kebumen Provinsi Jawa Tengah. Saya adalah seorang Mahasiswa di Universitas Teknologi Yogyakarta angkatan 2024 prodi Teknik Informatika jenjang S1. Dan saya masih di tingkatan programming pemula karena saya baru semester 1 akhir, dan untuk kedepannya saya ingin menjadi seorang programmer pro yang handal dan sukses.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Typography</li>
+                <li>Editing Video Game</li>
+                <!-- Tambahkan lebih banyak keahlian di sini -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Hasil Project</h2>
+            <div class="portfolio-items">
+                <div class="item">
+                    <video autoplay muted loop controls width="200" height="200">
+                        <source src="asetss/Website.mp4" type="video/mp4">
+                        <source src="asetss/Website.webm" type="video/webm">
+                        </video>
+                    <h3>Project 1</h3>
+                    <p>Project 1 ini adalah tentang website yang dibuat oleh saya menggunakan HTML,CSS, dan Javascript. Website ini berisi tentang wisata yang terletak di Yogyakarta atau kami sebut surga tersembunyi di Yogyakarta. Saya menggunakan HTML untuk membangun/merancang websitenya , CSS untuk styleing atau design websitenya , dan Javascript untuk fungsi dan animasi di dalam websitenya.</p>
+                </div>
+                <div class="item">
+                    <img src="asetss/Typografi.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Project 2 ini tentang typography yang saya buat, Typography adalah seni dan teknik mengatur huruf untuk membuat tulisan terlihat menarik, Typography tidak hanya berfokus pada estetika tetapi juga pada fungsionalitas, memastikan teks dapat dibaca dengan nyaman pada berbagai media.</p>
+                </div>
+                <div class="item">
+                    <video autoplay muted loop controls width="200" height="200">
+                    <source src="asetss/Editing.mp4" type="video/mp4">
+                    <source src="asetss/Editing.webm" type="video/webm">
+                    </video>
+                    <h3>Project 3</h3>
+                    <p>Sebagai konten kreator, editing video melibatkan proses kreatif dan teknis untuk menghasilkan video yang menarik, informatif, atau menghibur dalam format pendek (biasanya 15 detik hingga 3 menit). Proses ini mencakup pemotongan klip, penyesuaian durasi, penambahan transisi yang mulus, efek visual, teks, dan audio yang sesuai dengan tema konten. Dan sebagai tema yang saya pilih untuk video yang saya upload ke salah satu sosmed saya adalah game Mobile Legends Bang Bang</p>
+                </div>
+                <!-- Tambahkan lebih banyak item portfolio di sini -->
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Riwayat Pendidikan</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>SD Negeri 1 Tanggeran</h3>
+                    <h5>2013 - 2018</h5>
+                </div>
+                <div class="education-item">
+                    <h3>MTs WI Karangduwur</h3>
+                    <h5>2019 - 2021</h5>
+                </div>
+                <div class="education-item">
+                    <h3>MA WI Karangduwur</h3>
+                    <h5> 2022 - 2024</h5>
+                    <p>Jurusan: IPA</p>
+                </div>
+                <div class="education-item">
+                    <h3>Universitas Teknologi Yogyakarta</h3>
+                    <h5>2024 - Sekarang</h5>
+                    <p>Jurusan: Teknik Informatika</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak</h2>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-section">
+            <p>Email: <a href="mailto:liffgarcia18@gmail.com">liffgarcia18@gmail.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/+6285641851252">+6285641851252</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/de_mafz?igsh=eGViNWZhb2Y5a3Ez" target="_blank">@de_mafz</a></p>
+            <p>TikTok: <a href="https://www.tiktok.com/@liff_garcia?_t=ZS-8stmondoqSw&_r=1" target="_blank">@liff_garcia</a></p>
+        </div>
+        
+        <div class="layar-dalam">
+            <div class="copyright">
+                &copy; 2025 My Personal Branding
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
